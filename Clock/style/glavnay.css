@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+body{
+    background-color:#000000 ;
+    font-family: 'Cormorant', sans-serif;
+    width: 1920px;
+}
+.header{
+    margin-top: 10px;
+    margin-right: 0%;
+    display: flex;
+    align-items: flex-start;
+    background-color: #000000;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 262px;
+}
+
+.header__left-sity{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 170px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 8px;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search{
+    display: flex;
+    margin-left: 137px;
+    align-items: center;
+}
+
+.search__ser-text{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    width: 384px;
+    box-shadow: 0 0 0 1px #ffffff;
+    height: 42px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.search__ser-text-logo{
+    background: #000000;
+    cursor: pointer;
+    position: absolute; 
+    top: 0;
+    right: -100px;
+    width: 42px;
+    height: 42px;
+    box-shadow: 0 0 0 1px #ffffff;
+    border: 1px solid #0E0E0E;
+}
+
+.header__right{
+    display: inline-flex;
+    margin-left: 110px;
+    align-items: center;
+}
+
+.header__right-salon {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.header__right-nomera {
+    margin-right: 262px;
+    display: flex;
+}
+
+.header2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 245px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.header2__left{
+    display: flex;
+}
+
+.header2__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.cartina1 {
+    background-image: url('pic/1.png');
+    width: 1920px;
+    height: 828px;
+}
+
+.clock__omega-1234 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clock__omega-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.clock__omega-text2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.cartina2{
+    background-image: url('pic/2.png');
+    width: 1920px;
+    height: 828px;
+}
+
+.clock__omega-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.clock__casio-1234 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.clock__casio-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.clock__casio-text2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.clock__casio-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.cartina3{
+    background-image: url('pic/3.png');
+    width: 1920px;
+    height: 828px;
+}
+
+.img-div {
+    display: flex;
+}
+
+.rassiylka {
+    display: flex;
+}
+
+.rassiylka__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 262px;
+}
+
+.rassiylka__search {
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.rassiylka__search-text {
+    background-color: #D9D9D9;
+    color: #000000;
+    display: flex;
+    width: 384px;
+    box-shadow: 0 0 0 1px #ffffff;
+    height: 42px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.podval__pokup{
+    display: inline-block;
+    margin-left: 262px;
+    margin-top: 50px;
+    float: left;
+}
+
+.podval__company{
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    margin-left: 100px;
+}
+
+.podval__art {
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    margin-left: 100px;
+}
+
+.podval__sviaz {
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    margin-left: 150px;
+}
+
+.podval__right-logo {
+    display: inline-block;
+    float: right;
+    margin-top: 35px;
+    margin-right: 262px;
+}
+
